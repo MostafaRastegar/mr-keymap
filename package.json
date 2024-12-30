@@ -1,0 +1,139 @@
+{
+  "name": "mr-keymap",
+  "displayName": "mr-keymap",
+  "description": "fast use keymap",
+  "version": "0.0.1",
+  "author": "Mostafa Rastegar <m.rastegar991@gmail.com>",
+  "license": "MIT",
+  "publisher": "MostafaRastegar",
+  "galleryBanner": {
+    "theme": "light",
+    "color": "#FFFFFF"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MostafaRastegar/mr-keymap"
+  },
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Keymaps"
+  ],
+  "contributes": {
+    "keybindings": [
+      {
+        "key": "pageup",
+        "command": "cursorMove",
+        "args": {
+          "to": "up",
+          "by": "line",
+          "value": 5
+        },
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "pagedown",
+        "command": "cursorMove",
+        "args": {
+          "to": "down",
+          "by": "line",
+          "value": 5
+        },
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+shift+r",
+        "command": "workbench.action.openRecent"
+      },
+      {
+        "key": "\\",
+        "command": "renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+      },
+      {
+        "key": "f2",
+        "command": "-renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+      },
+      {
+        "key": "ctrl+pagedown",
+        "command": "workbench.action.moveEditorToNextGroup"
+      },
+      {
+        "key": "ctrl+pageup",
+        "command": "workbench.action.moveEditorToPreviousGroup"
+      },
+      {
+        "key": "ctrl+shift+0",
+        "command": "editor.action.fontZoomReset"
+      },
+      {
+        "key": "ctrl+0",
+        "command": "workbench.action.zoomReset"
+      },
+      {
+        "key": "ctrl+insert",
+        "command": "workbench.action.focusLeftGroup"
+      },
+      {
+        "key": "ctrl+home",
+        "command": "workbench.action.focusRightGroup"
+      },
+      {
+        "key": "ctrl+d",
+        "command": "-svgeditor.duplicate",
+        "when": "svgeditorWebviewFocus"
+      },
+      {
+        "key": "ctrl+\\",
+        "command": "workbench.action.toggleSidebarVisibility"
+      },
+      {
+        "key": "ctrl+shift+\\",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+      },
+      {
+        "key": "shift+a",
+        "command": "explorer.newFolder",
+        "when": "filesExplorerFocus && !inputFocus"
+      },
+      {
+        "key": "a",
+        "command": "explorer.newFile",
+        "when": "filesExplorerFocus && !inputFocus"
+      },
+      {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "ctrl+shift+f12",
+        "command": "editor.action.goToImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus"
+      },
+      {
+        "key": "ctrl+f12",
+        "command": "-editor.action.goToImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus"
+      },
+      {
+        "key": "ctrl+shift+pagedown",
+        "command": "workbench.action.splitEditorToNextGroup"
+      },
+      {
+        "key": "ctrl+shift+pageup",
+        "command": "workbench.action.splitEditorToPreviousGroup"
+      },
+      {
+        "key": "ctrl+up",
+        "command": "workbench.action.moveEditorToAboveGroup"
+      },
+      {
+        "key": "ctrl+down",
+        "command": "workbench.action.moveEditorToBelowGroup"
+      }
+    ]
+  }
+}
