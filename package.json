@@ -45,7 +45,8 @@
       },
       {
         "key": "ctrl+shift+r",
-        "command": "workbench.action.openRecent"
+        "command": "workbench.action.openRecent",
+        "mac": "cmd+shift+r"
       },
       {
         "key": "\\",
@@ -59,27 +60,33 @@
       },
       {
         "key": "ctrl+pagedown",
-        "command": "workbench.action.moveEditorToNextGroup"
+        "command": "workbench.action.moveEditorToNextGroup",
+        "mac": "cmd+pagedown"
       },
       {
         "key": "ctrl+pageup",
-        "command": "workbench.action.moveEditorToPreviousGroup"
+        "command": "workbench.action.moveEditorToPreviousGroup",
+        "mac": "cmd+pageup"
       },
       {
         "key": "ctrl+shift+0",
-        "command": "editor.action.fontZoomReset"
+        "command": "editor.action.fontZoomReset",
+        "mac": "cmd+shift+0"
       },
       {
         "key": "ctrl+0",
-        "command": "workbench.action.zoomReset"
+        "command": "workbench.action.zoomReset",
+        "mac": "cmd+0"
       },
       {
         "key": "ctrl+insert",
-        "command": "workbench.action.focusLeftGroup"
+        "command": "workbench.action.focusLeftGroup",
+        "mac": "cmd+insert"
       },
       {
         "key": "ctrl+home",
-        "command": "workbench.action.focusRightGroup"
+        "command": "workbench.action.focusRightGroup",
+        "mac": "cmd+home"
       },
       {
         "key": "ctrl+d",
@@ -88,11 +95,13 @@
       },
       {
         "key": "ctrl+\\",
-        "command": "workbench.action.toggleSidebarVisibility"
+        "command": "workbench.action.toggleSidebarVisibility",
+        "mac": "cmd+\\"
       },
       {
         "key": "ctrl+shift+\\",
-        "command": "workbench.files.action.showActiveFileInExplorer"
+        "command": "workbench.files.action.showActiveFileInExplorer",
+        "mac": "cmd+shift+\\"
       },
       {
         "key": "shift+a",
@@ -107,12 +116,14 @@
       {
         "key": "ctrl+shift+d",
         "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
+        "when": "editorTextFocus && !editorReadonly",
+        "mac": "cmd+shift+d"
       },
       {
         "key": "ctrl+shift+f12",
         "command": "editor.action.goToImplementation",
-        "when": "editorHasImplementationProvider && editorTextFocus"
+        "when": "editorHasImplementationProvider && editorTextFocus",
+        "mac": "cmd+shift+f12"
       },
       {
         "key": "ctrl+f12",
@@ -121,19 +132,23 @@
       },
       {
         "key": "ctrl+shift+pagedown",
-        "command": "workbench.action.splitEditorToNextGroup"
+        "command": "workbench.action.splitEditorToNextGroup",
+        "mac": "cmd+shift+pagedown"
       },
       {
         "key": "ctrl+shift+pageup",
-        "command": "workbench.action.splitEditorToPreviousGroup"
+        "command": "workbench.action.splitEditorToPreviousGroup",
+        "mac": "cmd+shift+pageup"
       },
       {
         "key": "ctrl+up",
-        "command": "workbench.action.moveEditorToAboveGroup"
+        "command": "workbench.action.moveEditorToAboveGroup",
+        "mac": "cmd+up"
       },
       {
         "key": "ctrl+down",
-        "command": "workbench.action.moveEditorToBelowGroup"
+        "command": "workbench.action.moveEditorToBelowGroup",
+        "mac": "cmd+down"
       }
     ]
   }
